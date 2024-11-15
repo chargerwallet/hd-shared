@@ -1,0 +1,28 @@
+{
+  "name": "hd-shared",
+  "version": "2.0.0",
+  "description": "Hardware SDK's shared tool library",
+  "keywords": [
+    "Hardware-SDK",
+    "shared",
+    "utils"
+  ],
+  "author": "ChargerWallet <dev@chargerwallet.com>",
+  "homepage": "https://github.com/chargerwallet/hd-shared",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chargerwallet/hd-shared.git"
+  },
+  "scripts": {
+    "dev": "rimraf dist && rollup -c ../../build/rollup.config.js -w",
+    "build": "rimraf dist && rollup -c ../../build/rollup.config.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  }
+}
