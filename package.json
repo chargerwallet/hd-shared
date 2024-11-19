@@ -1,6 +1,6 @@
 {
   "name": "@chargerwallet/hd-shared",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Hardware SDK's shared tool library",
   "keywords": [
     "Hardware-SDK",
